@@ -1,0 +1,19 @@
+# Fichiers système et de Python
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+
+# Sites générés (reconstruits par outils/generer_site.py)
+entreprise/site/
+entreprise/site-apercu/
+
+# Zips de livraison (à publier comme « Release », pas dans le dépôt)
+*.zip
+
+# Rapports de test laissés par un assistant
+rapport-test-*.md
+
+# Liste locale des clients réels (lue par outils/verifier_kit.py)
+.clients-reels.txt

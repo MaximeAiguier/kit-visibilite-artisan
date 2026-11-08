@@ -1,0 +1,31 @@
+{
+ "mois": "2026-09",
+ "exports": [
+  "campagnes"
+ ],
+ "depense": 205.1,
+ "conversions_google": 5.0,
+ "clics": 160,
+ "source_depense": "export Google Ads",
+ "demandes": 7,
+ "demandes_pubs": 3,
+ "par_source": {
+  "google-annonce": 3,
+  "bouche-a-oreille": 2,
+  "ancien-client": 1,
+  "google-recherche": 1
+ },
+ "signes": 3,
+ "signes_pubs": 1,
+ "ca_signe": 11000.0,
+ "ca_signe_pubs": 2600.0,
+ "en_attente": 2,
+ "perdus": 2,
+ "cout_par_demande_pubs": 68.37,
+ "cout_par_conversion_google": 41.02,
+ "cout_par_devis_signe_pubs": 205.1,
+ "en_attente_plus_30j": [],
+ "avis_texte": "10 avis, note 4,6/5",
+ "test_ia_texte": "0 sur 3",
+ "realisations_texte": "0"
+}

@@ -1,0 +1,176 @@
+{
+  "_note": "Jeu d'essai entièrement fictif (plombier-électricien) pour tester le chemin « publiable » du générateur et vérifier que le kit n'est pas propre à la maçonnerie. Ne pas publier.",
+  "entreprise": {
+    "nom": "Fictive Plomberie Électricité",
+    "prenom_gerant": "Camille",
+    "telephone": "01 99 00 12 34",
+    "email": "contact@entreprise-fictive.invalid",
+    "adresse": {
+      "rue": "1 rue du Test",
+      "code_postal": "99000",
+      "ville": "Ville-Test",
+      "region": "Département-Test",
+      "pays": "FR"
+    },
+    "afficher_adresse": false,
+    "zone": {
+      "communes": [
+        "Ville-Test",
+        "Bourg-Test",
+        "Village-Test"
+      ],
+      "rayon_km": 20
+    },
+    "horaires": "Du lundi au samedi, de 8 h à 19 h",
+    "horaires_schema": [
+      {
+        "jours": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "ouverture": "08:00",
+        "fermeture": "19:00"
+      }
+    ],
+    "type_schema": "Plumber",
+    "site_url": "https://entreprise-fictive.invalid",
+    "couleur": "#0f5c6e",
+    "reseaux": {
+      "facebook": "https://www.facebook.com/entreprise-fictive-test"
+    }
+  },
+  "legal": {
+    "forme_juridique": "SARL",
+    "raison_sociale": "Fictive Plomberie Électricité SARL",
+    "capital": "1 000 €",
+    "siret": "123 456 789 00011",
+    "immatriculation": "RCS Ville-Test 123 456 789",
+    "tva_intracom": "FR12123456789",
+    "directeur_publication": "Camille Test",
+    "hebergeur": {
+      "nom": "Hébergeur de test",
+      "adresse": "2 avenue de l'Essai, 99000 Ville-Test",
+      "telephone": "01 99 00 56 78"
+    },
+    "mediateur": {
+      "nom": "Médiateur de test",
+      "site": "https://mediateur-test.example"
+    }
+  },
+  "formulaire": {
+    "endpoint": "https://formspree.io/f/testfixture",
+    "delai_rappel": "sous 48 heures ouvrées"
+  },
+  "suivi": {
+    "google_ads_id": "AW-111111111",
+    "label_formulaire": "labelForm",
+    "label_clic_telephone": "labelTel",
+    "google_site_verification": "verification-de-test"
+  },
+  "accueil": {
+    "titre": "Plombier et électricien à Ville-Test",
+    "intro": "Fictive Plomberie Électricité installe et rénove salles de bain, chauffe-eau et installations électriques à Ville-Test et alentours.",
+    "points_forts": [
+      "Plomberie et électricité par la même équipe"
+    ]
+  },
+  "metiers": [
+    {
+      "slug": "plomberie",
+      "nom": "Plomberie",
+      "intro": "Salles de bain, chauffe-eau, réseaux d'eau.",
+      "texte": "Installation et rénovation de salles de bain.\n\nRemplacement de chauffe-eau.",
+      "prestations": [
+        "Salle de bain",
+        "Chauffe-eau",
+        "WC"
+      ]
+    },
+    {
+      "slug": "electricite",
+      "nom": "Électricité",
+      "intro": "Tableaux électriques, mise en sécurité, éclairage.",
+      "texte": "Remplacement de tableaux électriques et mise en sécurité des installations.",
+      "prestations": [
+        "Tableau électrique",
+        "Prises et éclairage"
+      ]
+    }
+  ],
+  "realisations": [
+    {
+      "slug": "salle-de-bain-bourg-test",
+      "dossier": "2026-03-salle-de-bain-bourg-test",
+      "titre": "Rénovation d'une salle de bain à Bourg-Test",
+      "metier": "plomberie",
+      "commune": "Bourg-Test",
+      "date": "2026-03",
+      "texte": "Remplacement de la baignoire par une douche, nouvelle faïence et nouveau meuble vasque.",
+      "photos": [
+        {
+          "fichier": "01.jpg",
+          "alt": "Image de test numéro 1"
+        },
+        {
+          "fichier": "02.jpg",
+          "alt": "Image de test numéro 2"
+        }
+      ]
+    },
+    {
+      "slug": "tableau-electrique-ville-test",
+      "dossier": "2026-04-tableau-electrique-ville-test",
+      "titre": "Remplacement d'un tableau électrique à Ville-Test",
+      "metier": "electricite",
+      "commune": "Ville-Test",
+      "date": "2026-04",
+      "texte": "Ancien tableau à fusibles remplacé par un tableau neuf avec disjoncteurs.",
+      "photos": [
+        {
+          "fichier": "01.jpg",
+          "alt": "Image de test numéro 3"
+        },
+        {
+          "fichier": "02.jpg",
+          "alt": "Image de test numéro 4"
+        }
+      ]
+    },
+    {
+      "slug": "chauffe-eau-bourg-test",
+      "dossier": "2026-05-chauffe-eau-bourg-test",
+      "titre": "Nouveau chauffe-eau à Bourg-Test",
+      "metier": "plomberie",
+      "commune": "Bourg-Test",
+      "date": "2026-05",
+      "texte": "Remplacement d'un chauffe-eau de 200 litres dans un cellier.",
+      "photos": [
+        {
+          "fichier": "01.jpg",
+          "alt": "Image de test numéro 5"
+        }
+      ]
+    }
+  ],
+  "a_propos": {
+    "texte": "Entreprise fictive créée pour tester le kit."
+  },
+  "faq": [
+    {
+      "question": "Intervenez-vous à Bourg-Test ?",
+      "reponse": "Oui, Bourg-Test fait partie de notre zone."
+    }
+  ],
+  "pages_zones": [
+    {
+      "slug": "plombier-bourg-test",
+      "commune": "Bourg-Test",
+      "metier": "plomberie",
+      "texte": "Nous avons rénové plusieurs salles de bain à Bourg-Test, dont une présentée dans nos réalisations."
+    }
+  ]
+}

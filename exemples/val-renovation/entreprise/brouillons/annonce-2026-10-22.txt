@@ -1,0 +1,22 @@
+# Annonce « Façade Valterre » — rédigée à partir du profil (cas de test)
+T: Rénovation de façade Valterre
+T: Ravalement de façade Grandval
+T: Façadier à Valbourg
+T: Reprise de fissures en façade
+T: Enduit de façade maison
+T: Nettoyage de façade
+T: Val Rénovation
+T: Demandez votre devis
+T: Appelez-nous
+T: Visite sur place avant devis
+T: Façade, maçonnerie, menuiserie
+T: Un seul interlocuteur
+T: Le gérant sur chaque chantier
+T: Rénovation autour du Mans
+T: Façade abîmée ou fissurée ?
+D: Ravalement, reprise de fissures, enduit : nous rénovons vos façades de maison en Valterre.
+D: Valbourg, Grandval, Arneuil, Brévy, Fillac, Susy-sur-Rivière et environ 30 km autour.
+D: Maçonnerie, façade et menuiserie par la même équipe. Le gérant suit chaque chantier.
+D: Décrivez votre projet en quelques lignes ou appelez-nous. Visite sur place pour le devis.
+P: facade
+P: valterre

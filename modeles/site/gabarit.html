@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$titre_page</title>
+<meta name="description" content="$description_page">
+$balises_supplementaires
+<link rel="stylesheet" href="style.css">
+<style>:root{--couleur:$couleur;}</style>
+<script type="application/ld+json">
+$jsonld
+</script>
+</head>
+<body data-page="$id_page">
+$bandeau_apercu
+<header class="entete">
+  <div class="conteneur entete-ligne">
+    <a class="marque" href="index.html">$marque</a>
+    <button class="menu-bouton" type="button" aria-expanded="false" aria-controls="navigation">Menu</button>
+    <nav id="navigation" class="navigation" aria-label="Navigation principale">
+      $navigation
+    </nav>
+    <a class="bouton bouton-tel entete-tel" href="$tel_href" data-suivi="telephone">$telephone</a>
+  </div>
+</header>
+<main id="contenu">
+$contenu
+</main>
+<footer class="pied">
+  <div class="conteneur pied-grille">
+    <div class="nap" data-nap>
+      $bloc_nap
+    </div>
+    <div>
+      <p class="pied-titre">Zone d'intervention</p>
+      <p>$zone_texte</p>
+    </div>
+    <div>
+      <p class="pied-titre">Informations</p>
+      <ul class="liste-simple">
+        $liens_pied
+      </ul>
+    </div>
+  </div>
+</footer>
+<div class="barre-mobile" aria-label="Contact rapide">
+  <a class="bouton bouton-tel" href="$tel_href" data-suivi="telephone">Appeler</a>
+  <a class="bouton bouton-secondaire" href="contact.html">Demander un devis</a>
+</div>
+$bandeau_cookies
+<script>window.SUIVI=$suivi_js;</script>
+<script src="site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Objet : Nom de domaine val-renovation.example
+
+Bonjour,
+
+Je souhaite gérer moi-même le nom de domaine val-renovation.example de mon entreprise. Pouvez-vous m'indiquer :
+
+1. à quel nom il est enregistré (titulaire) et chez quel bureau d'enregistrement (OVH, Ionos, Gandi…) ;
+2. sa date d'expiration ;
+3. et me transmettre le code de transfert (« AuthCode » / « code d'autorisation »).
+
+Les adresses e-mail qui utilisent ce domaine doivent continuer à fonctionner pendant le changement.
+
+Merci d'avance,
+Marc
+Val Rénovation — 02 61 91 00 00

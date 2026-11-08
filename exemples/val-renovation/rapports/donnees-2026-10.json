@@ -1,0 +1,97 @@
+{
+ "mois": "2026-10",
+ "exports": [
+  "campagnes",
+  "lieux",
+  "termes"
+ ],
+ "depense": 198.4,
+ "conversions_google": 6.0,
+ "clics": 159,
+ "source_depense": "export Google Ads",
+ "demandes": 9,
+ "demandes_pubs": 4,
+ "par_source": {
+  "google-annonce": 4,
+  "bouche-a-oreille": 3,
+  "facebook": 1,
+  "google-maps": 1
+ },
+ "signes": 2,
+ "signes_pubs": 1,
+ "ca_signe": 12400.0,
+ "ca_signe_pubs": 4200.0,
+ "en_attente": 5,
+ "perdus": 2,
+ "cout_par_demande_pubs": 49.6,
+ "cout_par_conversion_google": 33.07,
+ "cout_par_devis_signe_pubs": 198.4,
+ "termes_sans_demande": [
+  {
+   "terme": "formation maçon",
+   "cout": 14.2,
+   "clics": 11
+  },
+  {
+   "terme": "ravalement facade angers",
+   "cout": 12.5,
+   "clics": 10
+  },
+  {
+   "terme": "fenetre pvc leroy merlin",
+   "cout": 11.4,
+   "clics": 9
+  },
+  {
+   "terme": "salaire maçon",
+   "cout": 9.8,
+   "clics": 8
+  },
+  {
+   "terme": "rénovation façade tours",
+   "cout": 8.9,
+   "clics": 7
+  }
+ ],
+ "depense_termes_sans_demande": 56.8,
+ "lieux_hors_zone": [
+  {
+   "lieu": "La Flèche, Région-Test, France",
+   "cout": 21.7,
+   "conversions": 1.0
+  },
+  {
+   "lieu": "Angers, Région-Test, France",
+   "cout": 17.3,
+   "conversions": 0.0
+  },
+  {
+   "lieu": "Tours, Centre-Val de Loire, France",
+   "cout": 11.1,
+   "conversions": 0.0
+  }
+ ],
+ "zone_utilisee": [
+  "Valbourg",
+  "Grandval",
+  "Arneuil",
+  "Susy-sur-Rivière",
+  "Brévy",
+  "Fillac"
+ ],
+ "en_attente_plus_30j": [
+  {
+   "date": "2026-09-12",
+   "client": "M. C.",
+   "type": "fenêtres"
+  },
+  {
+   "date": "2026-09-29",
+   "client": "M. G.",
+   "type": "porte d'entrée"
+  }
+ ],
+ "avis_texte": "12 avis, note 4,7/5",
+ "test_ia_texte": "1 sur 3",
+ "realisations_texte": "0"
+}

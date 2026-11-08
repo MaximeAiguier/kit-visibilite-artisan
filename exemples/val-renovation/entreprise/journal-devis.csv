@@ -1,0 +1,17 @@
+date,nom_client,source,type_chantier,commune,statut,montant_signe,notes
+2026-09-03,M. A.,google-annonce,ravalement de façade,Arneuil,signé,2600,SIMULATION
+2026-09-08,Mme B.,bouche-a-oreille,ouverture mur porteur,Grandval,signé,6500,SIMULATION
+2026-09-12,M. C.,google-recherche,fenêtres,Brévy,en attente,,"SIMULATION, Google sans précision"
+2026-09-15,Mme D.,google-annonce,enduit façade,Valbourg,perdu,,SIMULATION - trop cher selon le client
+2026-09-19,M. E.,ancien-client,muret,Fillac,signé,1900,SIMULATION
+2026-09-24,Mme F.,bouche-a-oreille,extension,Susy-sur-Rivière,perdu,,SIMULATION
+2026-09-29,M. G.,google-annonce,porte d'entrée,Grandval,en attente,,SIMULATION
+2026-10-02,Mme H.,google-annonce,ravalement de façade,Grandval,signé,4200,SIMULATION
+2026-10-05,M. I.,bouche-a-oreille,reprise de fissures,Valbourg,signé,8200,SIMULATION
+2026-10-09,Mme J.,google-maps,volets,Arneuil,en attente,,SIMULATION
+2026-10-11,M. K.,google-annonce,petit dépannage,Grandval,perdu,,SIMULATION - chantier hors cible
+2026-10-16,Mme L.,facebook,ravalement de façade,Brévy,en attente,,SIMULATION
+2026-10-20,M. M.,bouche-a-oreille,ouverture de mur,Fillac,en attente,,SIMULATION
+2026-10-23,Mme N.,google-annonce,fenêtres,Susy-sur-Rivière,en attente,,SIMULATION
+2026-10-27,M. O.,bouche-a-oreille,mur de clôture,Valbourg,perdu,,SIMULATION
+2026-10-30,Mme P.,google-annonce,enduit façade,Arneuil,en attente,,SIMULATION

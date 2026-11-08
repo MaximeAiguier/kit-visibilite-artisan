@@ -1,0 +1,139 @@
+{
+  "_modele": true,
+  "_aide": "Structure de entreprise/site-contenu.json. Copier, retirer _modele, remplacer CHAQUE valeur par les vraies informations du gérant. Supprimer un champ facultatif plutôt que de le laisser approximatif. Détail des champs : modeles/site/LISEZ-MOI.md",
+  "entreprise": {
+    "nom": "Nom commercial exact",
+    "prenom_gerant": "Prénom",
+    "telephone": "02 00 00 00 00",
+    "email": "contact@domaine-de-l-entreprise.fr",
+    "adresse": {
+      "rue": "Numéro et rue",
+      "code_postal": "00000",
+      "ville": "Ville",
+      "region": "Département ou région",
+      "pays": "FR"
+    },
+    "afficher_adresse": true,
+    "zone": {
+      "communes": [
+        "Ville",
+        "Commune voisine 1",
+        "Commune voisine 2"
+      ],
+      "rayon_km": 30,
+      "texte": ""
+    },
+    "horaires": "Du lundi au vendredi, de 8 h à 18 h",
+    "horaires_schema": [
+      {
+        "jours": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "ouverture": "08:00",
+        "fermeture": "18:00"
+      }
+    ],
+    "type_schema": "HomeAndConstructionBusiness",
+    "site_url": "",
+    "logo": "",
+    "couleur": "#1f4e79",
+    "reseaux": {
+      "facebook": "",
+      "instagram": ""
+    }
+  },
+  "legal": {
+    "forme_juridique": "EI / EURL / SARL / SAS / SASU…",
+    "raison_sociale": "",
+    "capital": "",
+    "siret": "",
+    "immatriculation": "Entrepreneur individuel artisan : « RNE – SIREN 000 000 000 » ; société : « RCS Ville 000 000 000 »",
+    "tva_intracom": "",
+    "tva_non_applicable": false,
+    "directeur_publication": "",
+    "hebergeur": {
+      "nom": "Netlify, Inc.",
+      "adresse": "101 2nd Street, San Francisco, CA 94105, États-Unis",
+      "telephone": "",
+      "contact": "https://www.netlify.com/support/"
+    },
+    "assurance": {
+      "assureur": "",
+      "coordonnees": "",
+      "contrat": "",
+      "zone_couverte": ""
+    },
+    "adresse_domiciliation": "",
+    "mediateur": {
+      "nom": "",
+      "site": "",
+      "adresse": ""
+    }
+  },
+  "formulaire": {
+    "endpoint": "https://formspree.io/f/identifiant",
+    "delai_rappel": ""
+  },
+  "suivi": {
+    "google_ads_id": "",
+    "label_formulaire": "",
+    "label_clic_telephone": "",
+    "google_site_verification": ""
+  },
+  "accueil": {
+    "titre": "Métier principal à Ville et alentours",
+    "intro": "Une ou deux phrases factuelles : qui, quoi, où.",
+    "points_forts": [
+      "Uniquement ce que le gérant affirme, preuves à l'appui si nécessaire"
+    ],
+    "titre_seo": "",
+    "description_seo": ""
+  },
+  "metiers": [
+    {
+      "slug": "maconnerie",
+      "nom": "Maçonnerie",
+      "titre": "",
+      "intro": "Une phrase de présentation du métier tel que le gérant le pratique.",
+      "texte": "Paragraphes séparés par une ligne vide.",
+      "prestations": [
+        "Prestation réellement proposée"
+      ],
+      "titre_seo": "",
+      "description_seo": ""
+    }
+  ],
+  "realisations": [
+    {
+      "slug": "2026-05-mur-de-cloture-ville",
+      "dossier": "2026-05-mur-de-cloture-ville",
+      "titre": "Mur de clôture en parpaings enduits à Ville",
+      "metier": "maconnerie",
+      "commune": "Ville",
+      "date": "2026-05",
+      "texte": "Texte de 80 à 200 mots, avec les mots du gérant.",
+      "photos": [
+        {
+          "fichier": "01.jpg",
+          "alt": "Description factuelle de la photo"
+        }
+      ]
+    }
+  ],
+  "a_propos": {
+    "texte": "",
+    "titre_seo": "",
+    "description_seo": ""
+  },
+  "faq": [
+    {
+      "question": "Question réellement posée par les clients ?",
+      "reponse": "Réponse donnée par le gérant."
+    }
+  ],
+  "pages_zones": []
+}

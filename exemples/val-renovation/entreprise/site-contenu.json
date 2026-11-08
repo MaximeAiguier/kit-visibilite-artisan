@@ -1,0 +1,73 @@
+{
+  "_simulation": true,
+  "_note": "Cas de test : téléphone, e-mail, zone, horaires et textes issus d'un onboarding simulé. Publication toujours bloquée.",
+  "entreprise": {
+    "nom": "Val Rénovation",
+    "prenom_gerant": "Marc",
+    "telephone": "02 61 91 00 00",
+    "email": "contact@val-renovation.invalid",
+    "adresse": { "rue": "5 Chemin des Essais", "code_postal": "99230", "ville": "Valbourg", "region": "Valterre", "pays": "FR" },
+    "afficher_adresse": true,
+    "zone": { "communes": ["Valbourg", "Grandval", "Arneuil", "Susy-sur-Rivière", "Brévy", "Fillac"], "rayon_km": 30 },
+    "horaires": "Du lundi au vendredi, de 8 h à 18 h",
+    "horaires_schema": [ { "jours": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "ouverture": "08:00", "fermeture": "18:00" } ],
+    "type_schema": "GeneralContractor",
+    "couleur": "#7a3b1f",
+    "reseaux": {}
+  },
+  "legal": {
+    "hebergeur": {}
+  },
+  "formulaire": { "endpoint": "https://formspree.io/f/simulation", "delai_rappel": "" },
+  "suivi": { "google_ads_id": "AW-000000000", "label_formulaire": "simulationForm", "label_clic_telephone": "simulationTel" },
+  "accueil": {
+    "titre": "Maçonnerie, façade et menuiserie à Valbourg et autour du Mans",
+    "intro": "Val Rénovation réalise vos travaux de maçonnerie, de rénovation de façade et de menuiserie en Valterre, autour de Valbourg et du Mans.",
+    "points_forts": [
+      "Maçonnerie, façade et menuiserie : un seul interlocuteur pour votre rénovation",
+      "Le gérant est présent sur chaque chantier"
+    ],
+    "titre_seo": "Val Rénovation – Maçonnerie, façade, menuiserie à Valbourg (72)",
+    "description_seo": "Maçonnerie, rénovation de façade et menuiserie à Valbourg, Grandval, Arneuil et alentours. Demandez votre devis à Val Rénovation."
+  },
+  "metiers": [
+    {
+      "slug": "maconnerie",
+      "nom": "Maçonnerie",
+      "intro": "Murs, ouvertures, extensions et petits ouvrages de maçonnerie pour les particuliers.",
+      "texte": "Nous intervenons sur vos travaux de maçonnerie à Valbourg, au Mans et dans les communes voisines.\n\nChaque projet commence par une visite sur place pour comprendre votre besoin, puis un devis détaillé.",
+      "prestations": ["Création d'ouvertures dans les murs", "Murs et murets", "Extensions", "Reprises de maçonnerie"],
+      "titre_seo": "Maçon à Valbourg et au Mans | Val Rénovation",
+      "description_seo": "Travaux de maçonnerie à Valbourg, Grandval, Arneuil : ouvertures, murs, extensions. Devis sur demande."
+    },
+    {
+      "slug": "renovation-facade",
+      "nom": "Rénovation de façade",
+      "intro": "Ravalement et rénovation de façades de maisons individuelles.",
+      "texte": "Une façade abîmée ou encrassée se rénove : nettoyage, reprise des fissures, nouvel enduit ou peinture selon l'état du support.\n\nNous vous conseillons après avoir vu la façade sur place.",
+      "prestations": ["Ravalement de façade", "Reprise de fissures", "Enduit de façade", "Nettoyage de façade"],
+      "titre_seo": "Rénovation de façade à Valbourg et au Mans | Val Rénovation",
+      "description_seo": "Ravalement et rénovation de façade en Valterre, autour de Valbourg et du Mans. Visite et devis sur demande."
+    },
+    {
+      "slug": "menuiserie",
+      "nom": "Menuiserie",
+      "intro": "Pose et remplacement de menuiseries : fenêtres, portes et volets.",
+      "texte": "Nous posons vos fenêtres, portes et volets, en neuf comme en rénovation.\n\nComme nous faisons aussi la maçonnerie, les reprises autour des ouvertures sont faites par la même équipe.",
+      "prestations": ["Fenêtres", "Portes d'entrée", "Volets"],
+      "titre_seo": "Menuisier à Valbourg et au Mans | Val Rénovation",
+      "description_seo": "Pose de fenêtres, portes et volets autour de Valbourg et du Mans. Maçonnerie des ouvertures par la même équipe."
+    }
+  ],
+  "realisations": [],
+  "a_propos": {
+    "texte": "Val Rénovation est une entreprise de rénovation basée à Valbourg, en Valterre, dirigée par Marc.\n\nNous réalisons la maçonnerie, la rénovation de façade et la menuiserie, ce qui permet de confier l'ensemble d'une rénovation à un seul interlocuteur.",
+    "titre_seo": "À propos de Val Rénovation, Valbourg (Valterre)"
+  },
+  "faq": [
+    { "question": "Dans quelles communes intervenez-vous ?", "reponse": "À Valbourg, Grandval, Arneuil, Susy-sur-Rivière, Brévy, Fillac, et dans un rayon d'environ 30 km." },
+    { "question": "Pouvez-vous faire la maçonnerie et la menuiserie d'un même chantier ?", "reponse": "Oui, nous réalisons la maçonnerie, la façade et la menuiserie : un seul interlocuteur pour l'ensemble." },
+    { "question": "Comment obtenir un devis ?", "reponse": "Appelez-nous ou remplissez le formulaire de demande de devis. Nous convenons ensuite d'une visite sur place." }
+  ],
+  "pages_zones": []
+}
